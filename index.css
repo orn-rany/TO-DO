@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+* {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rebeccapurple;
+    position: relative;
+}
+
+/* top nav */
+#top-navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(73, 121, 179);
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    color: white;
+    padding: 0px 10px;
+
+}
+
+.brand {
+    font-size: 1.2rem;
+}
+
+.search-bar {
+    position: relative;
+    align-items: center;
+    display: flex;
+    i {
+        color: rgb(73, 121, 179);
+    
+    }
+    .bx-search-alt-2{
+        position: absolute;
+       margin-left: 10px;
+    }
+    .bx-x{
+        position: absolute;
+        margin-left: 250px;
+    }
+
+    input {
+        width: 280px;
+        text-align: center;
+        height: 30px;
+        border-radius: 3px;
+        border: 0;
+    }
+
+}
+
+.nav-util {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 1.3rem;
+
+    img {
+        width: 40px;
+        height: 40px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+}
+
+.nav-util i:hover {
+    color: rgb(163, 163, 156);
+    cursor: pointer;
+}
+
+/* nav-left */
+#nav-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    background-color: rgb(250, 245, 245);
+    box-shadow: 11px 5px 9px -5px rgba(106, 96, 96, 0.17);
+    -webkit-box-shadow: 11px 5px 9px -5px rgba(106, 96, 96, 0.17);
+    -moz-box-shadow: 11px 5px 9px -5px rgba(106, 96, 96, 0.17);
+}
+
+.nav-i {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+#nav-left .i-flex {
+    display: flex;
+}
+
+#nav-left .i-flex span {
+    margin-top: 15px;
+    padding-left: 10px;
+}
+
+/* #nav-left .i-flex:hover{
+    background-color: azure;
+    font-weight: bold;
+    cursor: pointer;
+} */
+.nav-i :hover {
+    background-color: azure;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* #nav-left .new-list {
+    display: flex;
+   
+    color: rgb(28, 93, 137);
+    cursor: pointer;
+
+} */
+
+/* #nav-left .new-list span {
+   
+    margin-top: 15px;
+    margin-left: 10px;
+} */
+
+.bxs-file-plus {
+
+    margin-left: 150px;
+}
+
+#nav-left i {
+    padding: 15px 10px;
+    font-size: 20px;
+}
+
+#nav-left hr {
+    margin: 0px 20px;
+}
+
+/* mune-footer */
+.menu-footer {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 250px; */
+    cursor: pointer
+}
+/* 
+.menu-footer .bx-check-double {
+    color: rgb(28, 93, 137);
+    ;
+} */
+
+/* main */
+/* #main {
+    background-color: rgb(29, 28, 27);
+    margin-top: 50px;
+}
+
+.main-top {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+} */

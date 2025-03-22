@@ -16,68 +16,9 @@ body {
 }
 
 /* top nav */
-#top-navbar {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(73, 121, 179);
-    align-items: center;
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    color: white;
-    padding: 0px 10px;
 
-}
 
-.brand {
-    font-size: 1.2rem;
-}
 
-.search-bar {
-    position: relative;
-    align-items: center;
-    display: flex;
-    i {
-        color: rgb(73, 121, 179);
-    
-    }
-    .bx-search-alt-2{
-        position: absolute;
-       margin-left: 10px;
-    }
-    .bx-x{
-        position: absolute;
-        margin-left: 250px;
-    }
-
-    input {
-        width: 280px;
-        text-align: center;
-        height: 30px;
-        border-radius: 3px;
-        border: 0;
-    }
-
-}
-
-.nav-util {
-    display: flex;
-    align-items: center;
-    column-gap: 10px;
-    font-size: 1.3rem;
-
-    img {
-        width: 40px;
-        height: 40px;
-        border: 1px solid black;
-        border-radius: 50%;
-    }
-}
-
-.nav-util i:hover {
-    color: rgb(163, 163, 156);
-    cursor: pointer;
-}
 
 /* nav-left */
 #nav-left {
